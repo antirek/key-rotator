@@ -1,4 +1,4 @@
-# key-rotator
+# keyrotator
 
 get next valid key from array of keys with limit requests.
 
