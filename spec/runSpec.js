@@ -5,11 +5,11 @@ describe('Keyrotator', function () {
   var keys = [
     {
       key: 'rtfdgkjfdgkj',
-      count: 2
+      limit: 2
     },
     {
       key: 'hdkjfdsfgnkjdgf',
-      count: 3
+      limit: 3
     }
   ];
 
@@ -37,7 +37,7 @@ describe('Keyrotator', function () {
     expect(array[2]).toBe(keys[1].key);
 
     expect(array).toEqual(expected);
-    
+
     done();
   });
 

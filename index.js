@@ -1,3 +1,4 @@
+'use strict';
 
 var Keyrotator = function (keysIn) {
   var keys = keysIn;
@@ -19,14 +20,14 @@ var Keyrotator = function (keysIn) {
 
   this.getSize = function () {    
     var count = keys.reduce(function (previous, current){
-      return previous + current.count;
+      return previous + current.limit;
     }, 0);
     return count;
   };
 
   this.getKey = function () {    
     var key = getCurrentKey();
-    if (key.used > key.count) {
+    if (key.used > key.limit) {
       key = getNextKey();
     }    
     return key.key
