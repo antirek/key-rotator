@@ -1,0 +1,22 @@
+{
+  "name": "key-rotator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antirek/key-rotator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antirek/key-rotator/issues"
+  },
+  "homepage": "https://github.com/antirek/key-rotator",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
+}
